@@ -2,10 +2,10 @@ import React from "react";
 
 import classes from "./Footer.module.css";
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <div className={classes.Footer}>
-            <button>New Yard</button>
+            <button onClick={props.handleChange}>New Yard</button>
         </div>
     );
 };

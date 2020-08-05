@@ -1,0 +1,74 @@
+.Auth {
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, transparent), 
+    url("https://firebasestorage.googleapis.com/v0/b/uryard-421a5.appspot.com/o/images%2Fbackground-316552_1280.jpg?alt=media&token=3ccb19d0-c57c-4e38-b1dc-b465c9bb0012") center/cover no-repeat border-box, #ffaa0c;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;  
+}
+ 
+.Auth form {
+    max-width: 330px;
+    margin: auto;
+    width: 100%;
+}
+
+.AuthBackground {
+    background: white;
+    border-radius: 1.5rem;
+    color: #ffaa0c;
+    padding: 2rem;
+}
+
+.Form input:focus {
+    box-shadow: none;
+}
+
+form input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+form input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Auth button {
+    background: #ffaa0c;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 2rem;
+}
+
+.Auth button:hover {
+    background: white;
+    box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.5);
+    color: #ffaa0c;
+}
+
+.Auth p {
+    color: black;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.Auth span {
+    color: #ffaa0c;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Auth span:hover {
+    color: #9c6c11;
+    text-decoration: none;
+}
