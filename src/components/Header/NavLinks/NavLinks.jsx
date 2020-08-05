@@ -7,8 +7,8 @@ import classes from "./NavLinks.module.css";
 const NavLinks = () => {
     return (
         <ul className={classes.NavLinks}>
-            <NavLink />
-            <NavLink />
+            <NavLink name="Sign In"/>
+            <NavLink name="Sign Up"/>
         </ul>
     );
 };

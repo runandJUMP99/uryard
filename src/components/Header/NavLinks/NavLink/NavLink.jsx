@@ -2,10 +2,10 @@ import React from "react";
 
 import classes from "./NavLink.module.css";
 
-const NavLink = () => {
+const NavLink = (props) => {
     return (
         <li className={classes.NavLink}>
-            NavLink
+            {props.name}
         </li>
     );
 };

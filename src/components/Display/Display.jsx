@@ -5,7 +5,7 @@ import classes from "./Display.module.css";
 const Display = () => {
     return (
         <div className={classes.Display}>
-            Display
+            
         </div>
     );
 };

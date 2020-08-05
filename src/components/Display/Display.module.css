@@ -1,4 +1,7 @@
 .Display {
-    background: whitesmoke;
-    margin: auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 100%, transparent), 
+    url("https://firebasestorage.googleapis.com/v0/b/uryard-421a5.appspot.com/o/background-316552_1280.jpg?alt=media&token=5681937a-9195-4153-afe7-e7c536751546") center/cover no-repeat border-box, #cf8515;
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
 }
